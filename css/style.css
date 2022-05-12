@@ -16,6 +16,9 @@
 .text-violet {
     color: #9792e4;
 }
+.text-center {
+    text-align: center;
+}
 
 /* Header */
 
@@ -74,8 +77,9 @@ header {
 .partners {
     padding: 2rem 0;
 }
-
-
+.benefits {
+    padding: 2rem 0;
+}
 
 /* Media queries */
 
@@ -102,6 +106,9 @@ header {
     }
     .partners .col-container .card {
         width: 100%
+    }
+    .benefits .col-container .card {
+        width: calc(50% - 1rem);
     }
 }
 
@@ -134,4 +141,8 @@ header {
     .partners .col-container .card {
         width: 100%
     }
+    .benefits .col-container .card {
+        width: calc(33% - 0.5rem);
+    }
+    
 }
