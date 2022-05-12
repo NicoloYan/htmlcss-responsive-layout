@@ -6,13 +6,19 @@
 }
 
 /* Common */
+
 .container95 {
     width: 95%;
 }
-.clr-violet {
+.bg-violet {
     background-color: #9792e4;
 }
+.text-violet {
+    color: #9792e4;
+}
+
 /* Header */
+
 header {
     background-color: #0084fd;
     color: white;
@@ -53,14 +59,20 @@ header {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
 }
 .card {
     margin: 1rem 0;
+    padding: 1rem 1rem;
     width: 100%;
+    /* TEST */
     border: 2px solid blue;
 }  
 .strategic-planning  {
     padding: 1rem 0;
+}
+.partners {
+    padding: 2rem 0;
 }
 
 
@@ -84,6 +96,12 @@ header {
     }
     .col-container .card:nth-child(4) {
         padding: 0 1rem;
+    }
+    .strategic-planning .col-container .card {
+        width: 100%;
+    }
+    .partners .col-container .card {
+        width: 100%
     }
 }
 
@@ -113,7 +131,7 @@ header {
     .col-container .card:first-child {
         width: calc(66%);
     }
-    .col-container .card:nth-child(4) {
-        padding: 0 1rem;
+    .partners .col-container .card {
+        width: 100%
     }
 }
