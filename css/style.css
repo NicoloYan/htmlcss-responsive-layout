@@ -80,7 +80,12 @@ header {
 .benefits {
     padding: 2rem 0;
 }
-
+.about-us .col-container p {
+    margin-bottom: 1rem;
+}
+.about-us .col-container h2 {
+    margin-bottom: 1rem;
+}
 /* Media queries */
 
 /* Tablet */
