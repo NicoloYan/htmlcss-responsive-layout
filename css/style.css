@@ -234,6 +234,23 @@ header {
     margin-bottom: 1rem;
     font-weight: bold;
 }
+.about-us .col-container .card .round-img img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+.about-us .col-container .card .text-violet {
+    font-size: 20px;
+}
+.btn-violet {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #9792e4;
+    border-radius: 20px;
+    margin: 1rem 0;
+}
 .about-us .container95 {
     width: 85%;
 }
