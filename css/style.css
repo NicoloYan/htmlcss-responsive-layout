@@ -7,6 +7,10 @@
 
 /* Common */
 
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 .container95 {
     width: 95%;
     max-width: 1170px;
@@ -20,13 +24,18 @@
 .text-white {
     color: white;
 }
+.text-blue {
+    color: #0084fd;
+}
 .text-center {
     text-align: center;
 }
 .bg-black {
     background-color: #333333;
 }
-
+a {
+    text-decoration: none;
+}
 /* Header */
 
 header {
@@ -60,7 +69,11 @@ header {
     padding: 0.5rem 1rem;
     border-radius: 20px;
 }
-
+.apple-btn {
+    background-color: #0084fd;
+    padding: 0.5rem 3rem;
+    border-radius: 20px;
+}
 /* Main */
 .col-container {
     display: flex;
@@ -77,7 +90,51 @@ header {
     width: 100%;
     /* TEST */
     border: 2px solid blue;
-}  
+}
+.info .col-container .card {
+    flex-direction: column;
+    background-color: #b5ddff;
+    border-radius: 20px;
+    padding: 3rem;
+    padding: 3rem;
+    padding: 3rem;
+    padding-bottom: 0;
+    line-height: 2rem;
+}
+.info .col-container .card:nth-child(2) {
+    text-align: center;
+}
+.info .col-container .card:nth-child(3) {
+    text-align: center;
+}
+.info .col-container .card:nth-child(4) {
+    text-align: center;
+}
+.info .col-container .card:nth-child(5) {
+    text-align: center;
+}
+.info .col-container .card p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.info .col-container .card i.text-blue {
+    font-size: 6rem;
+}
+.info .col-container .card h2 {
+    margin: 1.5rem 0;
+}
+.pic-container {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+}
+.pic-container img {
+    width: 100%;
+}
 .strategic-planning  {
     padding: 1rem 0;
 }
@@ -140,6 +197,10 @@ header {
     .col-container .card:nth-child(4) {
         padding: 0 1rem;
     }
+    .pic-container {
+        padding-right: 3rem;
+        margin-left: 0;
+    }
     .strategic-planning .col-container .card {
         width: 100%;
     }
@@ -167,8 +228,10 @@ header {
         width: 70%;
     }
     /* Main */
-    .card {
+    .info .col-container .card {
         margin: 1rem 0;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .col-container {
         justify-content: space-between;
@@ -188,5 +251,14 @@ header {
     }
     .about-us .container95 {
         width: 65%;
+    }
+    .cta .flex-column {
+        width: 45%;
+    }
+
+    /* Footer */
+
+    footer .footer-flex {
+        width: 45%;
     }
 }
