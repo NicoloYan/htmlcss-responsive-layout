@@ -298,6 +298,10 @@ header {
 .footer-bottom {
     padding: 2rem 0;
 }
+footer a {
+    color: #9792e4;
+    text-decoration: underline;
+}
 /* Media queries */
 
 /* Tablet */
