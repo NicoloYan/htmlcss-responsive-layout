@@ -169,6 +169,41 @@ header {
 .partners {
     padding: 2rem 0;
 }
+.partners .col-container {
+    flex-direction: column;
+}
+.partners .col-container .card {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+
+}
+.partners .col-container h2 {
+    margin: 2rem 0;
+}
+.partners .col-container p {
+    margin-bottom: 2rem;
+}
+.partners .col-container .round-img {
+    width: 150px;
+    height: 150px;
+}
+.partners .col-container .round-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.partners .col-container .card p {
+    margin: 2rem 0;
+}
+.partner-description {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 .benefits {
     padding: 2rem 0;
 }
@@ -234,7 +269,8 @@ header {
         width: 100%;
     }
     .partners .col-container .card {
-        width: 100%
+        width: 100%;
+        flex-direction: row;
     }
     .benefits .col-container .card {
         width: calc(50% - 1rem);
@@ -283,7 +319,8 @@ header {
         width: calc(66%);
     }
     .partners .col-container .card {
-        width: 100%
+        width: 100%;
+        flex-direction: row;
     }
     .benefits .col-container .card {
         width: calc(33% - 0.5rem);
