@@ -207,6 +207,26 @@ header {
 .benefits {
     padding: 2rem 0;
 }
+.benefits .col-container .card {
+    background-color: white;
+}
+.number {
+    font-size: 40px;
+    margin: 2rem 0;
+}
+.benefits .col-container .card h2 {
+    margin: 2rem 0;
+}
+.benefits .col-container .card p {
+    margin-bottom: 2rem;
+}
+.benefits .col-container .card a {
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    background-color: #9792e4;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
 .about-us .col-container p {
     margin-bottom: 1rem;
 }
@@ -258,7 +278,7 @@ header {
     .col-container .card:first-child {
         width: calc(66%);
     }
-    .col-container .card:nth-child(4) {
+    .info .col-container .card:nth-child(4) {
         padding: 3rem;
     }
     .pic-container {
